@@ -32,6 +32,11 @@ public class Employee {
 	@Column(name = "password")
 	private String password;
 
+	// Constructor
+	public Employee() {
+
+	}
+
 	// Constructor using fields
 	public Employee(int id, String fname, String lname, String email, String password) {
 		super();
